@@ -1,0 +1,24 @@
+{
+  "name": "revolutionchain/revo-node-manager",
+  "description": "Lightweight dashboard and control system for revo nodes",
+  "keywords": [
+    "revo",
+    "dashboard",
+    "manager"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "RevolutionChain",
+      "homepage": "https://github.com/revolutionchain/"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/revolutionchain/revo-node-manager/issues"
+  },
+  "type": "project",
+  "require": {
+    "php": "^7.0",
+    "ext-curl": "*"
+  }
+}
