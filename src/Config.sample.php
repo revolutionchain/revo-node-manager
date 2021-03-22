@@ -48,6 +48,8 @@
     const DISPLAY_BLOCKS = 25;
     // Number of forks displayed on forks page
     const DISPLAY_FORKS = 25;
+	//number of mempool transactions displayed on mempool page
+	const DISPLAY_TXS = 100;
 
     /* 
     You can connect (curl) to the revo core rpc through a proxy. This not relevant for most setups.

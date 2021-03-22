@@ -4,8 +4,6 @@
 
 Revo Node Manager (RNM) is a lightweight dashboard and control system for your Revo node. 
 
-Check out [ElextrumX Dashboard](https://github.com/Mirobit/electrumx-dashboard) if you run an Electrumx Server.
-
 ## Features
 
 - Extensive dashboard with general information about the node, connected peers and the blockchain
@@ -64,11 +62,3 @@ rpcallowip=0.0.0.0/0
 - Access to RNM is by default limited to localhost. This can be expanded to a specific IP or disabled. If disabled, make sure to protect the RNM folder (.htaccess or rename it to something unique that an attacker will not guess). An attacker could "guess" your password, since there is no build-in brute force protection.
 - The `data` folder contains your rules, rule logs and geo information about your peers. Make sure to protect (e.g. `chmod -R 700 data`) peer information if your web server is publicly accessible. The previously mentioned IP protection doesn't work here. If you use `Apache` you are fine, since the folder is protected with `.htaccess` (make sure `AllowOverride All` is set in your Apache config file).
 
-## Roadmap
-
-- [ ] Improve project structure
-- [ ] Improve OOP
-- [x] Improve error handling
-- [ ] Import rules functionality
-- [ ] More help icons
-- [ ] Display expanded peer/block info (popup)
