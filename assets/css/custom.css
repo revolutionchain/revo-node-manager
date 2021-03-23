@@ -298,7 +298,7 @@ body .container.body .right_col {
   float: left;
   background: #343434;
   border-radius: 0;
-  height: 57px; }
+  height: 120px; }
 
 @media (max-width: 991px) {
   .nav-md .container.body .right_col, .nav-md .container.body .top_nav {
