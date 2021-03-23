@@ -1,6 +1,6 @@
 # Revo Node Manager
 
-![](https://user-images.githubusercontent.com/13236924/102018547-2c11e800-3d6e-11eb-96bb-e0bccf76977e.png)
+![image](https://user-images.githubusercontent.com/62940168/112182659-c56a5900-8bfd-11eb-81b3-428d551147ea.png)
 
 Revo Node Manager (RNM) is a lightweight dashboard and control system for your Revo node. 
 
