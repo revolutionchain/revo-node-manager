@@ -216,7 +216,7 @@ function createRulesContent($editID = NULL){
 function createMempoolContent(){
 	global $revod;
 
-	$content['txs'] = $bitcoind->getrawmempool(TRUE);
+	$content['txs'] = $revod->getrawmempool(TRUE);
 	$content['txs'] = array_slice($content['txs'], 0, CONFIG::DISPLAY_TXS);
 	$content['node'] = new Node();
 
