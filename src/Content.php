@@ -229,15 +229,17 @@ function createWalletContent(){
 	try{
 		$unspents = $revod->listunspent();
 		$walletInfo = $revod->getwalletinfo();
+		
 	}catch(\Exception $e){
 		$error = "Wallet disabled!";
 		return "";
 	}
-
+	
 	$content['wallet']["walletversion"] = checkInt($walletInfo["walletversion"]);	
 	$content['wallet']["balance"] = checkInt($walletInfo["balance"]);	
 	$content['wallet']["unconfirmed_balance"] = checkInt($walletInfo["unconfirmed_balance"]);	
-	$content['wallet']["immature_balance"] = checkInt($walletInfo["immature_balance"]);	
+	$content['wallet']["immature_balance"] = checkInt($walletInfo["immature_balance"]);
+	$content['wallet']["stake_balance"] = checkInt($walletInfo["stake"]);	
 	$content['wallet']["txcount"] = checkInt($walletInfo["txcount"]);	
 	
 	$i = 0;
